@@ -3,11 +3,11 @@ body {
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
-  font-size: 4.6rem;
+  font-size: 4.8rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
+  font-size: 6rem;
 }
 .display-2 {
   font-family: 'Jost', sans-serif;
@@ -48,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 3.84rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.36rem;
+    font-size: calc( 2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -1046,47 +1046,36 @@ a {
 .cid-sUNGd6GVQC .mbr-section-btn {
   color: #ffffff;
 }
-.cid-sUNJNmxWsB {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+.cid-sUOHVV1pKg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
 }
-.cid-sUNJNmxWsB .card-wrapper {
+.cid-sUOHVV1pKg .mbr-iconfont {
+  display: block;
+  font-size: 4rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
+}
+.cid-sUOHVV1pKg .card-wrapper {
+  min-height: 220px;
+  transition: all 0.3s;
   border-radius: 4px;
-  background: #fafafa;
-}
-@media (min-width: 992px) {
-  .cid-sUNJNmxWsB .card-wrapper {
-    padding: 2rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-sUNJNmxWsB .card-wrapper {
-    padding: 1rem;
-    margin-bottom: 2rem;
-  }
-}
-.cid-sUNJNmxWsB .row {
-  align-items: center;
+  padding: 1rem;
+  background: #000000;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
-@media (max-width: 767px) {
-  .cid-sUNJNmxWsB .row .row {
-    flex-direction: column-reverse;
-  }
-  .cid-sUNJNmxWsB .row .row .img-wrapper {
-    margin-bottom: 2rem;
-  }
+.cid-sUOHVV1pKg .card-title,
+.cid-sUOHVV1pKg .card-box {
+  color: #ffffff;
 }
-.cid-sUNJNmxWsB .img-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-sUNJNmxWsB .card-subtitle {
-  color: #0095ff;
-}
-.cid-sUNJNmxWsB .mbr-text {
-  color: #555555;
+.cid-sUOKnBSZku {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
 .cid-sUO6KUglNe {
   padding-top: 0rem;
