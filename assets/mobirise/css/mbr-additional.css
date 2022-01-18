@@ -10,7 +10,7 @@ body {
   font-size: 6rem;
 }
 .display-2 {
-  font-family: 'Jost', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -102,7 +102,7 @@ body {
   background-color: #40b0bf !important;
 }
 .bg-info {
-  background-color: #47b5ed !important;
+  background-color: #e43f3f !important;
 }
 .bg-warning {
   background-color: #ffe161 !important;
@@ -156,8 +156,8 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #47b5ed !important;
-  border-color: #47b5ed !important;
+  background-color: #e43f3f !important;
+  border-color: #e43f3f !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -166,15 +166,15 @@ body {
 .btn-info.focus,
 .btn-info.active {
   color: #ffffff !important;
-  background-color: #148cca !important;
-  border-color: #148cca !important;
+  background-color: #b31919 !important;
+  border-color: #b31919 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #148cca !important;
-  border-color: #148cca !important;
+  background-color: #b31919 !important;
+  border-color: #b31919 !important;
 }
 .btn-success,
 .btn-success:active {
@@ -332,13 +332,13 @@ body {
 .btn-info-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #47b5ed;
+  color: #e43f3f;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #148cca !important;
+  color: #b31919 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
@@ -346,8 +346,8 @@ body {
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #ffffff !important;
-  background-color: #47b5ed !important;
-  border-color: #47b5ed !important;
+  background-color: #e43f3f !important;
+  border-color: #e43f3f !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -464,7 +464,7 @@ body {
   color: #40b0bf !important;
 }
 .text-info {
-  color: #47b5ed !important;
+  color: #e43f3f !important;
 }
 .text-warning {
   color: #ffe161 !important;
@@ -496,7 +496,7 @@ a.text-success.active {
 a.text-info:hover,
 a.text-info:focus,
 a.text-info.active {
-  color: #1283bc !important;
+  color: #a61717 !important;
 }
 a.text-warning:hover,
 a.text-warning:focus,
@@ -541,7 +541,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #47b5ed;
+  background-color: #e43f3f;
 }
 .alert-warning {
   background-color: #ffe161;
@@ -571,7 +571,7 @@ a:hover {
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fdf2f2;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -1037,7 +1037,7 @@ a {
   }
 }
 .cid-sUNGd6GVQC {
-  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+  background-image: url("../../../assets/images/mbr-2-1920x1280.jpg");
 }
 .cid-sUNGd6GVQC .mbr-section-title {
   text-align: left;
@@ -1070,6 +1070,46 @@ a {
 }
 .cid-sUOHVV1pKg .card-title,
 .cid-sUOHVV1pKg .card-box {
+  color: #ffffff;
+}
+.cid-sUTsa9gI0W {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fafafa;
+}
+@media (max-width: 767px) {
+  .cid-sUTsa9gI0W .card-box {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sUTsa9gI0W .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sUTsa9gI0W .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-sUTsa9gI0W .card-wrapper {
+  border-radius: 4px;
+  background-color: #000000;
+}
+.cid-sUTsa9gI0W .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sUTsa9gI0W .card:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-sUTsa9gI0W .mbr-text {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-sUTsa9gI0W .card-title {
+  text-align: left;
   color: #ffffff;
 }
 .cid-sUOKnBSZku {
